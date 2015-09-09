@@ -1,13 +1,13 @@
-# Selene Installers
-##### A custom Composer installer for Selene package types.
+# Selenia Installers
+##### A custom Composer installer for Selenia package types.
 
-This package is for Selene plugin authors to require in their package's `composer.json`. It will
+This package is for Selenia plugin authors to require in their package's `composer.json`. It will
 install their package to the correct location based on the specified package
 type.
 
 #### Supported package types
 
-- `selene-plugin`
+- `selenia-plugin`
 
 -
 

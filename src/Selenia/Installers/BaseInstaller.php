@@ -1,5 +1,5 @@
 <?php
-namespace Selene\Installers;
+namespace Selenia\Installers;
 
 use Composer\Composer;
 use Composer\Package\PackageInterface;
