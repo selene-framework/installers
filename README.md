@@ -11,5 +11,11 @@ type.
 
 -
 
-To know more about this installer, please visit the original source of the Composer Installers plugin
+To know more about this installer, please view the original source of the Composer Installers plugin
 at https://github.com/composer/installers
+
+## License
+
+The Selenia framework is open-source software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+**Selenia framework** - Copyright &copy; 2015 Impactwave, Lda.
