@@ -12,7 +12,7 @@ class SeleniaInstaller extends BaseInstaller
      * @var array
      */
     protected $locations = array(
-        'plugin' => 'private/plugins/{$vendor}/{$name}/',
+        'plugin' => 'private/plugins/{$vendor}/{$name}',
     );
 
 }
