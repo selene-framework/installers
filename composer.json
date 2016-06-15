@@ -1,20 +1,24 @@
 {
-  "name": "selenia/installers",
+  "name": "electro/installers",
   "type": "composer-installer",
   "license": "MIT",
-  "description": "A Composer library installer for the Selenia Framework",
+  "description": "A Composer library installer for the Electro framework",
   "keywords": [
     "installer",
-    "selenia",
+    "electro",
     "composer",
     "plugin"
   ],
-  "homepage": "https://github.com/selenia/installers",
+  "homepage": "https://github.com/electro/installers",
   "authors": [
     {
       "name": "Impactwave",
       "email": "impactwave@impactwave.com",
       "homepage": "http://impactwave.com"
+    },
+    {
+      "name": "Cláudio Silva",
+      "email": "claudio.silva@impactwave.com"
     },
     {
       "name": "Kyle Robinson Young",
@@ -24,11 +28,11 @@
   ],
   "autoload": {
     "psr-0": {
-      "Selenia\\Installers\\": "src/"
+      "Electro\\Installers\\": "src/"
     }
   },
   "extra": {
-    "class": "Selenia\\Installers\\Installer",
+    "class": "Electro\\Installers\\Installer",
     "branch-alias": {
       "dev-master": "1.0-dev"
     }

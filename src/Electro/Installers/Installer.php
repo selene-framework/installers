@@ -1,5 +1,5 @@
 <?php
-namespace Selenia\Installers;
+namespace Electro\Installers;
 
 use Composer\Installer\LibraryInstaller;
 use Composer\Package\PackageInterface;
@@ -13,7 +13,7 @@ class Installer extends LibraryInstaller
      * @var array
      */
     private $supportedTypes = array(
-        'selenia' => 'SeleniaInstaller'
+        'electro' => 'ElectroInstaller'
     );
 
     /**
@@ -30,7 +30,7 @@ class Installer extends LibraryInstaller
             );
         }
 
-        $class = 'Selenia\\Installers\\' . $this->supportedTypes[$frameworkType];
+        $class = 'Electro\\Installers\\' . $this->supportedTypes[$frameworkType];
         $installer = new $class($package, $this->composer);
 
         return $installer->getInstallPath($package, $frameworkType);
@@ -95,7 +95,7 @@ class Installer extends LibraryInstaller
     {
         $pattern = false;
         if (!empty($this->supportedTypes[$frameworkType])) {
-            $frameworkClass = 'Selenia\\Installers\\' . $this->supportedTypes[$frameworkType];
+            $frameworkClass = 'Electro\\Installers\\' . $this->supportedTypes[$frameworkType];
             /** @var BaseInstaller $framework */
             $framework = new $frameworkClass(null, $this->composer);
             $locations = array_keys($framework->getLocations());

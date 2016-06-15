@@ -1,5 +1,5 @@
 <?php
-namespace Selenia\Installers;
+namespace Electro\Installers;
 
 use Composer\Composer;
 use Composer\Package\PackageInterface;
