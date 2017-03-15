@@ -9,7 +9,7 @@ type.
 
 - `electro-plugin`
 
-To know more about this installer, please view the original source of the Composer Installers plugin at [](https://github.com/composer/installers)
+To know more about this installer, please view the original source of the Composer Installers plugin at [github.com/composer/installers](https://github.com/composer/installers)
 
 ## License
 
