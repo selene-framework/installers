@@ -32,13 +32,10 @@
     }
   },
   "extra": {
-    "class": "Electro\\Installers\\Installer",
-    "branch-alias": {
-      "dev-master": "1.0-dev"
-    }
+    "class": "Electro\\Installers\\Installer"
   },
   "require-dev": {
-    "composer/composer": "1.0.*@dev",
-    "phpunit/phpunit": "4.1.*"
+    "composer/composer": "*",
+    "phpunit/phpunit": "*"
   }
 }
